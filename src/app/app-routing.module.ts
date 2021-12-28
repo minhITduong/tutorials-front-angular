@@ -7,7 +7,7 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
 const routes: Routes = [
   { path: 'add', component: AddTutorialComponent },
   { path: 'tutorials', component: TutorialsListComponent },
-  { path: 'tutorials/id', component: TutorialDetailsComponent },
+  { path: 'tutorials/:id', component: TutorialDetailsComponent },
   { path: '', redirectTo: 'tutorials', pathMatch: 'full' },
 ];
 
